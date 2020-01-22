@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--<style> 
+        /* Modify the background color of nav bar */ 
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        .navbar-custom { 
+            background-color: lightgreen; 
+        } 
+        .bg-custom{
+            background-color: skyblue;
+        }
+</style>-->
+<!--<style>
+body  {
+ /* background-image: url("paper.gif")*/;
+  background-color: #1515;
+}
+</style>-->
+<!--<style type="text/css">
+    /* extend the inbuilt row class */
+    .row{
+        background-color: salmon;
+        outline: 1px solid black;
+        height: 100px;
+    }
+    /*extend the inbuilt col class */
+    [class^=col]{ /* all classes begin with col (attribute selectors) */
+        border: 1px solid black;
+    }
+
+    /*.col{
+        border: 1px solid black;
+    }*/
+</style>-->
+
+    <title> Media details </title>
+</head>
+    
+<body>
+    <header>
+        <nav  class="navbar navbar-expand-lg  navbar-light bg-light ">
+                     <a class="navbar-brand" href="#">
+                       <img src="pic.jpg" style="background: white;" width="60" height="50"
+                           class="d-inline-block align-top" alt="logo">pixogram
+                     </a>
+            <button  class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="colla9pse navbar-collapse" id="navbarSupportedContent ">
+                <div class="navbar-nav m-auto">
+                    <a class="nav-item nav-link m-auto" href="#">Upload Media</a>
+                    <a class="nav-item nav-link m-auto" href="#">My Media</a>
+                    <a class="nav-item nav-link m-auto" href="#">Followers/Following</a>
+            
+                </div>
+        <div class="col-3 d-flex flex-column" >
+            <a href="#"class="badge badge-primary bd-highlight p-2 m-auto" >Account
+            </a>            
+        </div>
+
+        </nav>
+        <div class="container-fluid badge-primary">
+            <div class="row pb-2">
+                <div class="col-2 m-2">
+                    <img src="profile.png   " style="background: white;" width="60" height="80" 
+                       class="d-inline-block align-left" alt=" profile image">
+                </div>
+                <div class="col-4 d-flex align-items-center">
+                    <p class="h2"><span class="badge badge-secondary bg-highlight">@username</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+
+ <div class="row">
+  
+            <div class="col  m-4 " >           
+             <i style="font-size:30px" class="fa">&#xf007; <input type="text" placeholder="Title comes here"></i></i></p>
+
+              
+             <div class="media-container">
+                <img class="card-img " src="profile.png" width="400px" height="400px"
+                    alt="media">
+                <div class="bottom-right d-flex justify-content-end w-100">
+                    <p class="mr-3"><i class="fas fa-thumbs-up"></i></p>
+                    <p class="mr-3"><i class="fas fa-thumbs-down"></i></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class=" col p-4 mt-5">
+            <form action="#">
+                <div class="row">
+                    <div class="col d-flex justify-content-center lead">
+                        <a href="#" class="badge badge-primary m-1">Sepia</a>
+                        <a href="#" class="badge badge-primary m-1">Gray</a>
+                        <a href="#" class="badge badge-primary m-1">Brightness</a>
+                        <a href="#" class="badge badge-primary m-1">Contrast</a>
+                    </div>
+                </div>
+                <div class="form-group row mt-5">
+                    <label for="description" class="col-3 col-form-label">Description</label>
+                    <div class="col-9">
+                        <textarea class="form-control" rows="5" name="description" id="description">
+                          </textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="tags" class="col-3 col-form-label">Tags</label>
+                    <div class="col-9">
+                        <input type="text" class="form-control" name="tags" id="tags" value=" ">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-3">
+                        <textarea placeholder="Write your comment here!" class=" form-control"></textarea>
+                        <form class="form-inline">
+                            <div class="btn-group">
+                                <button class="btn" type="button"><span class="fas fa-reply"></span></button>
+                                <button class="btn" type="button"><span
+                                        class="fas fa-thumbs-up"></span></button>
+                                <button class="btn" type="button"><span
+                                        class="fas fa-thumbs-down"></span></button>
+                                <button class="btn" type="button"><span class="fas fa-trash"></span></button>&nbsp;
+                            </div>
+            
+            
+                            <button class="btn btn-primary" type="button">Post</button>
+                        </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/cc23b688b2.js"></script>
+<script src="./script/script.js"></script>
+</body>
+
+</html>
