@@ -3,16 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { SearchComponent } from './search/search.component';
+
+import { MediaComponent } from './media/media.component';
+import { MedialistComponent } from './medialist/medialist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    SidebarComponent,
-    SearchComponent
+    
+    MediaComponent,
+    MedialistComponent
   ],
   imports: [
     BrowserModule,
