@@ -1,0 +1,24 @@
+<div >
+    
+    Enter number1<input type="number" value="" id="num1" required #num1>
+<br>
+<br>
+
+   Enter number2<input type="number"  value=""  id="num2" required #num2>
+   <br>
+   <br>
+ <div >
+ 
+   <input type="button" value="+"   (click)="savedata(num1,num2)">
+   <input type="button" value="-"   (click)="sub()"> 
+   <input type="button" value="*"   (click)="mul()"> 
+   <input type="button" value="/"    (click)="div()" > &nbsp; 
+   <input type="button" value="reset"(click)="reset(num1,num2,result)" >
+   <input type="button" value="save"(click)="savedata(num1,num2)">
+ </div>
+ <br>
+ <br>
+ Result <input type="number"  value="{{result}}" readonly #res>
+
+
+</div>
