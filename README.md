@@ -1,2 +1,2 @@
 # my-activty
-about case study 
+my practice and case study
