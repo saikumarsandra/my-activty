@@ -3,16 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { MediaComponent } from './media/media.component';
-import { MedialistComponent } from './medialist/medialist.component';
+import { DirectiveComponent } from './directive/directive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    
-    MediaComponent,
-    MedialistComponent
+    DirectiveComponent
   ],
   imports: [
     BrowserModule,
